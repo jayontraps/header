@@ -37,7 +37,7 @@ var dest = 'build/';
 
 
 gulp.task('sass', function() {
-    return gulp.src(src + "scss/main.scss")        
+    return gulp.src(src + "scss/site.scss")        
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'nested'}))
         .on('error', errorAlert)  
