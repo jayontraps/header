@@ -54,11 +54,9 @@ gulp.task('sass', function() {
 
 
 gulp.task('minify-css', function() {
-    if (!devBuild) {
-        return gulp.src( dest + 'css/*.css' )
-            .pipe(minifyCss({compatibility: 'ie8'}))
-            .pipe(gulp.dest(dest + 'css'));  
-    }  
+    return gulp.src( dest + 'css/*.css' )
+        .pipe(minifyCss({compatibility: 'ie8'}))
+        .pipe(gulp.dest(dest + 'css'));  
 });
 
 
