@@ -1,0 +1,36 @@
+$base_font_size: 15px;
+$base_line_height: 1.5rem;
+
+$base_font_family: Helvetica, Arial, sans-serif; 
+$base_font_custom: 'Source Sans Pro', sans-serif;
+
+/* off-canvas-nav */
+$top_bar_top_position: 12px;
+$top_bar_mobile_height: 52px;
+$off_canvas_menu_left_gutter: 2em;
+$off_canvas_menu_font_size: .9em;
+
+
+/* Grid */
+$col_padding: 2rem;
+
+
+// layout
+$max_width: 75rem; // 1200px
+$max_width_medium: 60rem; // 960px
+$max_width_small: 50rem; // 800px
+
+
+// spacing
+$default_spacing: 1.5rem;
+
+/* media queries */
+$lg_screen: "min-width: 769px";
+$sm_screen: "max-width: 768px";
+
+$body_background_color: #fafafa;
+$border: 1px solid grey;
+$body_color: #999;
+$grey: #ccc;
+
+

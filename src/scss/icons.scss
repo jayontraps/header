@@ -1,0 +1,21 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    transition: all 200ms ease-in;
+}
+
+.icon-triangle-right {
+    height: .9em;
+    padding-bottom: .1em;
+    vertical-align: middle;
+}
+
+@media screen and ($lg_screen) {
+    .icon {
+        &:hover {
+            fill: lighten($body_color, 60%);
+        }
+    }
+}

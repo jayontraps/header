@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $top_bar_mobile_height;
+    z-index: 10;
+    background-color: $body_background_color;
+    border-bottom: $border;  
+}
+
+.header__menu {
+    display: none;
+}
+
+@media screen and ($lg_screen) {
+    .header {
+        height: auto;
+        position: relative;
+        z-index: auto;
+        padding: 1em 0;
+        border-bottom: none;
+        color: red;
+    }
+}

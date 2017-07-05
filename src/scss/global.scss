@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+//   background-color: red;
+}
+
+img {
+  max-width: 100%;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
