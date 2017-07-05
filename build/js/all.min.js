@@ -167,9 +167,9 @@ js.cookie.js
 
 		$('#js_open_nav').on('click', function() {
 			$offCanvasNav.addClass('opened');
-			var documentHeight = $(document).height();
-			$overlay.addClass('active')
-					.css('height', documentHeight);
+			// var documentHeight = $(document).height();
+			// $overlay.addClass('active')
+			// 		.css('height', documentHeight);
 		});
 
 		$('#js_close_nav').on('click', closeNav );
