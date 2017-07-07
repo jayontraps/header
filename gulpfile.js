@@ -44,7 +44,7 @@ gulp.task('sass', function() {
         .pipe(postcss([
               lost(),
               autoprefixer({
-                browsers: ['last 2 versions']
+                browsers: ['last 5 versions']
             })
         ]))         
         .pipe(sourcemaps.write())
